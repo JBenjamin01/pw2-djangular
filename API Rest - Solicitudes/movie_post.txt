@@ -1,0 +1,46 @@
+POST
+
+Endpoint: http://127.0.0.1:8000/movie/
+
+[
+  {
+    "title": "El Laberinto del Fauno",
+    "desc": "En la España post-guerra, una joven se encuentra con un mundo de fantasía que la ayuda a escapar de la cruel realidad que la rodea.",
+    "year": 2006
+  },
+  {
+    "title": "El Secreto de sus Ojos",
+    "desc": "Un oficial judicial busca justicia para un caso de asesinato sin resolver, mientras se enfrenta a su propio pasado.",
+    "year": 2009
+  },
+  {
+    "title": "La Vida de los Otros",
+    "desc": "Un oficial de la Stasi en la Alemania Oriental se infiltra en la vida de un dramaturgo para espiar sus actividades, pero acaba cuestionando su propia lealtad.",
+    "year": 2006
+  },
+  {
+    "title": "Avatar",
+    "desc": "En un futuro lejano, un ex-marine se infiltra en una raza extraterrestre en un planeta lejano para ayudar a una corporación a extraer un mineral valioso.",
+    "year": 2009
+  },
+  {
+    "title": "El Padrino",
+    "desc": "La historia de una poderosa familia de la mafia italoamericana, enfocándose en la transición del liderazgo del patriarca al hijo menor.",
+    "year": 1972
+  },
+  {
+    "title": "Forrest Gump",
+    "desc": "La vida extraordinaria de un hombre con un bajo coeficiente intelectual, que inadvertidamente influye en algunos de los eventos más importantes de la historia de Estados Unidos.",
+    "year": 1994
+  },
+  {
+    "title": "La Guerra de las Galaxias",
+    "desc": "Una épica saga espacial que sigue las aventuras de Luke Skywalker mientras lucha contra el malvado Imperio Galáctico.",
+    "year": 1977
+  },
+  {
+    "title": "Titanic",
+    "desc": "Un romance épico que se desarrolla a bordo del infame transatlántico Titanic durante su fatídico viaje.",
+    "year": 1997
+  }
+];
