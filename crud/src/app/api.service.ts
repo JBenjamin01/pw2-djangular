@@ -6,14 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 
-
 export class ApiService {
   baseurl = "http://127.0.0.1:8000";
-  httpHeaders = new      
-                                      HttpHeaders({'Content-Type':'application/json'});
-  constructor(private http:HttpClient) { }
-  getAllMovies():Observable<any>{
-    return this.http.get(this.baseurl+'/movie/', 
-    {headers: this.httpHeaders});
+  httpHeaders = new HttpHeaders({'Content-Type': 'application/json'});
+  constructor(private http: HttpClient) { }
+  getAllMovies(): Observable<any>{
+    return this.http.get<any>(`${this.baseurl}/movie/`, { headers: this.httpHeaders });
   }
 }
