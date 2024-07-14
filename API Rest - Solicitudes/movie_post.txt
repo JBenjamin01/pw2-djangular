@@ -42,5 +42,15 @@ Endpoint: http://127.0.0.1:8000/movie/
     "title": "Titanic",
     "desc": "Un romance épico que se desarrolla a bordo del infame transatlántico Titanic durante su fatídico viaje.",
     "year": 1997
+  },
+  {
+  "title": "Inception",
+  "desc": "Un ladrón especializado en el arte de la extracción de secretos a través de los sueños recibe una última oportunidad para redimirse si puede hacer lo contrario: plantar una idea en la mente de un objetivo.",
+  "year": 2010
+  },
+  {
+  "title": "Gladiator",
+  "desc": "Un general romano deshonrado busca venganza contra el corrupto emperador que asesinó a su familia y usurpó el trono.",
+  "year": 2000
   }
 ];

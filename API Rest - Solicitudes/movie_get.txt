@@ -1,6 +1,6 @@
 GET
 
-http://127.0.0.1:8000/movie/
+Endpoint: http://127.0.0.1:8000/movie/
 
 Formato del JSON:
 
