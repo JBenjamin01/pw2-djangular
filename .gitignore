@@ -3,3 +3,6 @@ venv/
 
 # Ignorar los archivos y carpetas pycache
 __pycache__
+
+# Ignorar el node modules
+node_modules/
