@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 
 export class AppComponent {
-  movies = [{id:1, title:'peli1', desc:'No tiene descripción', year:2021},{id:2, title:'peli2', desc:'No tiene descripción', year:2022}];
+  movies: any[] = [];
   constructor(private api:ApiService) {
     this.getMovies();
   }
@@ -19,7 +19,7 @@ export class AppComponent {
     this.api.getAllMovies().subscribe (
       data => {
         console.log(data);
-        //this.movies = data;  //data.results;
+        this.movies = data;  //data.results;
       },
       error => {
         console.log(error);
